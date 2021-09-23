@@ -25,16 +25,16 @@ class MyApp extends StatelessWidget {
       home: DashboardPage(),
       initialRoute: '/',
       routes: {
-        '/login': (context) => DashboardPage(),
+        '/home': (context) => DashboardPage(),
         // '/home': (context) => HomePage(),
       },
       theme: ThemeData(
         appBarTheme:
             AppBarTheme(color: Color(Constants.appMainColor), elevation: 0),
-        primaryColor: Color(Constants.appMainColor),
-        primaryColorDark: Color(Constants.appMainColor),
+        primaryColor: Colors.white,
+        primaryColorDark: Colors.white,
         accentColor: Color(0xFFe0e0e0),
-        backgroundColor: Constants.appBackgroundColor,
+        backgroundColor: Colors.white,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       debugShowCheckedModeBanner: false,
